@@ -1,6 +1,9 @@
 const path = require('path');
 module.exports = {
-    entry: './src/index.ts',
+	// entry: './src/index.ts',
+	// entry: ['./src/index.ts', './src/01basic.ts'],
+	// entry: './src/01fromEvent.ts',
+	entry: './src/02Operator.ts',
     devtool: 'inline-source-map',
     module: {
       rules: [
