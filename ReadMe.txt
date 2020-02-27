@@ -5,8 +5,20 @@ https://medium.com/codingthesmartway-com-blog/getting-started-with-rxjs-part-1-s
 Main Training: 
 https://www.learnrxjs.io
 
+# Sub Training
 https://github.com/staltz/rxjs-training
 
 #reference
 Official API reference
 http://reactivex.io/rxjs/identifiers.html
+
+
+# How to run: check it out package.json
+npm run start 
+
+# How to build: check it out package.json
+npm run build
+
+# Pre-requisite
+npm install rxjs webpack webpack-dev-server typescript ts-loader
+npm install webpack-cli --save-dev
